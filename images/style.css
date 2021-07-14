@@ -1,0 +1,141 @@
+body {
+  color: #E85A4F;
+  margin: 0;
+  text-align: center;
+  /* font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif */
+  /* Its the font in "" if the user dont have it then rest font will be applied */
+  /* font-family: 'Itim', cursive; */
+  font-family: 'Patrick Hand', cursive;
+  font-size: 200%;
+}
+
+h1 {
+  color: #66BFBF;
+  padding-top: 100px;
+  font-size: 5.625rem;
+  /*100% = 16px = 1em*/
+  margin: 0 auto 0 auto;
+  line-height: 2;
+  /* margin: auto; */
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Patua One', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: dotted #C0C0C0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top {
+  /* background-color: #e0ece4; */
+  background-color:#1F2833;
+  position: relative;
+}
+
+h3 {
+  color: #11999E
+}
+
+.middle {
+  margin: 100px 0;
+}
+.profile{
+  width: 50%;
+  margin: auto;
+}
+
+.bottom {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.program {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+  /* clear attribute */
+}
+
+.cyber {
+  margin-right: 30px;
+  width: 35%;
+  float: right;
+  /* clear attribute */
+}
+
+.btn {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 21;
+  -moz-border-radius: 21;
+  border-radius: 21px;
+  text-shadow: 1px 1px 3px #000000;
+  -webkit-box-shadow: 2px 6px 10px #0a0a0a;
+  -moz-box-shadow: 2px 6px 10px #0a0a0a;
+  box-shadow: 2px 6px 10px #0a0a0a;
+  font-family: 'Patrick Hand', cursive;
+  color: #e8e8e8;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  border: solid #337FED 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  text-decoration: none;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+  padding: 20px 0px;
+}
